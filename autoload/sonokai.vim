@@ -68,7 +68,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'yellow':     ['#ddaf3b',   '179',  'Yellow'],
           \ 'green':      ['#a6e12d',   '107',  'Green'],
           \ 'blue':       ['#66d8ee',   '110',  'Blue'],
-          \ 'purple':     ['#aa80fe',   '176',  'Magenta'],
+          \ 'purple':     ['#B954E1',   '176',  'Magenta'],
           \ 'grey':       ['#cfcfc1',   '246',  'LightGrey'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
           \ }
