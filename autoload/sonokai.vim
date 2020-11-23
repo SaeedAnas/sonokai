@@ -71,7 +71,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#aa80fe',   '176',  'Magenta'],
           \ 'grey':       ['#cfcfc1',   '246',  'LightGrey'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
-    }
+          \ }
   elseif a:style ==# 'shusia'
     let palette = {
           \ 'black':      ['#1a181a',   '237',  'DarkGrey'],
