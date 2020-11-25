@@ -50,10 +50,10 @@ function! sonokai#get_palette(style) "{{{
   elseif a:style ==# 'monokai'
     let palette = {
           \ 'black':      ['#212121',   '237',  'DarkGrey'],
-          \ 'bg0':        ['#181819',   '235',  'Black'],
+          \ 'bg0':        ['#0c0c0c',   '235',  'Black'],
           \ 'bg1':        ['#181819',   '236',  'DarkGrey'],
-          \ 'bg2':        ['#3b383e',   '236',  'DarkGrey'],
-          \ 'bg3':        ['#423f46',   '237',  'DarkGrey'],
+          \ 'bg2':        ['#181819',   '236',  'DarkGrey'],
+          \ 'bg3':        ['#181819',   '237',  'DarkGrey'],
           \ 'bg4':        ['#181819',   '237',  'Grey'],
           \ 'bg_red':     ['#f82a71',   '203',  'Red'],
           \ 'diff_red':   ['#f82a71',   '52',   'DarkRed'],
