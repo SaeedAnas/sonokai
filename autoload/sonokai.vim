@@ -50,11 +50,11 @@ function! sonokai#get_palette(style) "{{{
   elseif a:style ==# 'monokai'
     let palette = {
           \ 'black':      ['#212121',   '237',  'DarkGrey'],
-          \ 'bg0':        ['#2d2a2e',   '235',  'Black'],
-          \ 'bg1':        ['#343136',   '236',  'DarkGrey'],
+          \ 'bg0':        ['#181819',   '235',  'Black'],
+          \ 'bg1':        ['#181819',   '236',  'DarkGrey'],
           \ 'bg2':        ['#3b383e',   '236',  'DarkGrey'],
           \ 'bg3':        ['#423f46',   '237',  'DarkGrey'],
-          \ 'bg4':        ['#49464e',   '237',  'Grey'],
+          \ 'bg4':        ['#181819',   '237',  'Grey'],
           \ 'bg_red':     ['#f82a71',   '203',  'Red'],
           \ 'diff_red':   ['#f82a71',   '52',   'DarkRed'],
           \ 'bg_green':   ['#a6e12d',   '107',  'Green'],
@@ -69,7 +69,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'green':      ['#a6e12d',   '107',  'Green'],
           \ 'blue':       ['#66d8ee',   '110',  'Blue'],
           \ 'purple':     ['#B954E1',   '176',  'Magenta'],
-          \ 'grey':       ['#cfcfc1',   '246',  'LightGrey'],
+          \ 'grey':       ['#49464e',   '246',  'LightGrey'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
           \ }
   elseif a:style ==# 'shusia'
